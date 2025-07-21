@@ -1,0 +1,51 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Vite/React build output (if applicable)
+dist/
+build/
+
+# Python/Flask virtual environment
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# Production
+/build
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Environment variable files
+.env
+.env.*
+.envrc
+
+# Vercel/Netlify configs
+.vercel/
+.netlify/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+next-env.d.ts
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Python cache
+**/__pycache__/
+**/*.py[cod]
+
+# VSCode settings (optional)
+.vscode/
